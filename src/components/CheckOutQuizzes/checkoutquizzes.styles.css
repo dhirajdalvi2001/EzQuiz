@@ -1,0 +1,21 @@
+#check-out-quizzes .title {
+  margin: 20px auto 30px;
+  width: 30%;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+#check-out-quizzes .background-image {
+  width: 100vw;
+  height: 100%;
+  background-image: url("/src/BackgroundImage.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -5;
+  filter: blur(10px);
+}
